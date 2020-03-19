@@ -1,0 +1,47 @@
+
+
+
+01_26_subprocess.py
+
+
+
+cropped_pics
+
+
+
+tests_package_git
+    
+    clotting_package
+        clotting_run_test.py
+            
+
+    soluble_fibrin_package
+        soluble_fibrin_run_test.py
+        activate_tf_gpu.txt
+        model
+            .pkl 
+
+    Tensorflow
+        
+    
+    tube_ready_not_ready_analysis_convert_to_function.py
+
+
+
+
+
+
+
+git instructions:
+	create a github account
+        install git on your computer
+        setup:  git --version to make sure installed correctly
+                git config --global user.name "github username"
+                git config --global user.email "your email" 
+                check worked correctly:  git config --list
+        go to directory want to track
+        git init
+        git status  (check if any modified or uncommited files, will be red)
+        git add -A  (add modifified files to staging area)
+        git status (should all be green now)
+        git commit -m "Initial Commit"

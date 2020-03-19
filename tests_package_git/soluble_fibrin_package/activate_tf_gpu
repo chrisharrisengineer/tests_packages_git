@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+eval "$(command conda 'shell.bash' 'hook' 2> /dev/null)"
+conda activate tf_gpu
+
+which python
+
+
+cd /home/chris/Desktop/everything_needed_for_blood_machine/tests_package_git/soluble_fibrin_package/Tensorflow/models/research/object_detection
+
+python /home/chris/Desktop/everything_needed_for_blood_machine/tests_package_git/soluble_fibrin_package/Tensorflow/models/research/object_detection/object_detection_image_soluble_fibrin.py
+
+
